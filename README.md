@@ -1,7 +1,3 @@
-Here’s a more **professional, polished, and concise** version of your **RBAC MongoDB package documentation**. I’ve kept the structure clean, consistent, and developer-friendly, while ensuring it looks like a standard open-source library README.
-
----
-
 # RBAC MongoDB
 
 A **Role-Based Access Control (RBAC)** library with **MongoDB integration** for Node.js applications. Includes built-in support for **Express.js** and **Next.js** middleware.
@@ -279,5 +275,6 @@ initializeApp().then(() => app.listen(3000, () => console.log('Server running on
 For issues or feature requests, please open an [issue](https://github.com/arvind9140/rbac-mongo/issues) on GitHub.
 
 ---
+
 
 
