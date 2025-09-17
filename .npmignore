@@ -1,0 +1,35 @@
+# Development files
+examples/
+.gitignore
+.eslintrc.js
+.prettierrc
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.test
+.env.local

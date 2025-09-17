@@ -1,0 +1,45 @@
+{
+  "name": "rbac-mongodb",
+  "version": "1.0.1",
+  "description": "Role-Based Access Control (RBAC) package with MongoDB integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:manual": "node test/manual-test.js"
+  },
+  "keywords": [
+    "rbac",
+    "role-based-access-control",
+    "mongodb",
+    "mongoose",
+    "authentication",
+    "authorization",
+    "express",
+    "middleware"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^7.5.0",
+    "crypto": "^1.0.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "supertest": "^6.3.3",
+    "mongodb-memory-server": "^8.15.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.18.0 <6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  }
+}
